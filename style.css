@@ -1,18 +1,47 @@
 body {
-    background: linear-gradient( #00ffff 0%, #ffff0f 100%);
+    background: linear-gradient( #00ffff 0%, #ffff0f 100%); 
     background-repeat: no-repeat;
     text-align: center;
+    position: absolute;
+   overflow: hidden;
+   height: 800px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: 0.83;
+   display: table;
+   width: 100%;
+   height:100%;
+   z-index: 10;
 }
+
+
 p {
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 20px;
     padding: 5px;
 }
+
+
 h1 {
     text-shadow: 2px 2px #0033ff;
     font-size: 20px;
 }
+
+
 img {
     border-radius: 50%;
     width: 250px;
 }
+
+
+.linebreak {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 700;
+ }
+ 
+ 
