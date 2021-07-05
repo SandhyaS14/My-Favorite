@@ -50,6 +50,7 @@ img {
     top: 10px;
     right: 30px;
     cursor: pointer;
+    z-index: 10;
  }
 
 
@@ -65,7 +66,7 @@ img {
     opacity: 0.83;
     background: linear-gradient(#efff0c 0%, #0033ff 100%);
     display: table;
-    z-index: 10;
+    z-index: 9;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
