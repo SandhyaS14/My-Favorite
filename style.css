@@ -101,6 +101,26 @@ img {
  }
 
 
+ html {
+   scroll-behavior: smooth;
+ }
+
+
+ #Reviews {
+   height: 625px;
+   margin-top: 1225px;
+   background-color: aquamarine;
+   width: 1357px;
+ }
+
+
+ #Videos {
+   height: 800px;
+   background-color: blueviolet;
+   margin-top: -25px;
+ }
+
+
  .menuchoices:hover{
     font-size: 15px;
     background-color: rgb(0, 217, 255);
