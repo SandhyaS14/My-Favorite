@@ -126,7 +126,32 @@ img {
    margin-top: -35px;
    padding-top: -45px;
    background-color: cyan;
+   text-align: center;
  }
+
+
+ .Contact1 h3 {
+   display: inline;
+}
+
+
+#Contact {
+   text-align: center;
+   background: firebrick;
+}
+
+
+.Contact1 a{
+   color: #FFFFFF;
+   text-shadow: none;
+   font-size: medium;
+}
+
+
+
+p {
+ text-emphasis-position: center;
+}
 
 
  .menuchoices:hover{
